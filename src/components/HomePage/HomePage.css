@@ -1,0 +1,48 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marketItemsMainDisplay {
+  display: flex;
+  grid-gap: 80px;
+  margin-top: 20px;
+}
+
+.categoriesFilterSection {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.marketItemsSection {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.category {
+  cursor: pointer;
+}
+
+.category.active {
+  font-weight: 600;
+}
+
+.filterClearer {
+  background: rgba(102, 199, 232, 0.8);
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.filterClearer:hover {
+  background: rgba(102, 199, 232, 0.5);
+}

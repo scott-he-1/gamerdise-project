@@ -1,0 +1,21 @@
+.loginInputBase {
+  position: relative;
+  max-width: 1000px;
+}
+
+.loginLabel {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.loginInput {
+  padding: 4px;
+  width: 100%;
+}
+
+.loginErrorM {
+  position: absolute;
+  color: red;
+  right: 0;
+  top: 0;
+}

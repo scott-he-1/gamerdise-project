@@ -1,0 +1,74 @@
+.sellYourItemFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sellYourItemFormContainer > .header {
+  margin-bottom: 20px;
+}
+
+.sellYourItemForm {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+
+.sellItemButton {
+  background: transparent;
+  align-self: center;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 25px;
+  padding: 10px;
+  background: rgba(105, 218, 25, 1);
+  color: black;
+  font-weight: 700;
+}
+
+.sellItemButton:hover {
+  background: rgba(105, 218, 25, 0.7);
+}
+
+.itemInputField {
+  display: flex;
+  grid-gap: 20px;
+  place-items: center;
+  position: relative;
+}
+
+.itemInputField > h3 {
+  width: 150px;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  place-items: center;
+  border: 1px solid black;
+  height: 30px;
+  padding: 5px;
+  grid-gap: 3px;
+  font-size: 12px;
+}
+
+.inputContainer > * {
+  border: none;
+}
+
+.inputContainer input:focus {
+  border: none;
+  outline: none;
+}
+
+.sellItemInputErrorM {
+  color: red;
+}

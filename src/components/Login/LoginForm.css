@@ -1,0 +1,43 @@
+.loginFormPage {
+  max-width: 1028px;
+}
+
+.loginGreeting {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.loginSections {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 150px;
+}
+
+.loginSections > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginSections form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.formTitle {
+  font-size: 2rem;
+}
+
+.signInButton {
+  padding: 10px;
+  width: 90px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0);
+}
+
+.signInButton:hover {
+  border: 1px solid black;
+}

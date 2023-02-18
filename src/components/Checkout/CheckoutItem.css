@@ -1,0 +1,44 @@
+.checkoutItem {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 5px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  background: rgba(128, 128, 128, 0.7);
+}
+
+.checkoutItemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutItemImageWrapper {
+  width: 100px;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.checkoutItemImageWrapper img {
+  border-radius: 10px;
+}
+
+.checkoutInfoCategory {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.checkoutInfoName {
+  font-weight: 700;
+  font-size: 1.10rem;
+}
+
+.cardInfoSelectContainer {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.cardInfoSelectContainer select {
+  width: 75px;
+}

@@ -1,0 +1,87 @@
+.checkoutUserItems {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  margin-top: 25px;
+}
+
+.checkoutMainDisplay {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  grid-gap: 20px;
+  border-radius: 25px;
+}
+
+.priceSummaryField {
+  display: flex;
+}
+
+.grandTotalAmount {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 600;
+}
+
+.purchaseButton {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(221, 227, 68, 0.5);
+  width: 100%;
+  font-weight: 600;
+}
+
+.purchaseButton:hover {
+  background: rgba(221, 227, 68, 1);
+}
+
+.userInfoSide {
+  flex: 2;
+}
+
+.summarySectionSide {
+  margin-top: 15px;
+  flex: 1
+}
+
+.priceSummary {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.userCardInfo {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.cardInfoLabel {
+  font-weight: 600;
+}
+
+.cardInfoError,
+.addressInputErrorM {
+  color: red;
+  font-weight: 600;
+}
+
+.addressHeader {
+  margin-top: 15px;
+}
+
+.addressInputFields {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+  font-weight: 600;
+}
+
+.addressInputFields select {
+  padding: 2px;
+}

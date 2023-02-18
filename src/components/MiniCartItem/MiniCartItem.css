@@ -1,0 +1,18 @@
+.miniCartItem {
+  display: flex;
+  place-items: center;
+  grid-gap: 10px;
+}
+
+.miniCartItem svg {
+  cursor: pointer;
+}
+
+.miniCartItem .miniCartImageWrapper {
+  height: 75px;
+  width: 100px;
+}
+
+.miniCartItemInfo {
+  font-size: 12px;
+}

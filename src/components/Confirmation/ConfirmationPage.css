@@ -1,0 +1,31 @@
+.confirmationPage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.confirmationMessage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font-size: 3rem;
+  grid-gap: 20px;
+}
+
+.confirmationMessage svg {
+  color: green;
+  font-size: 7rem;
+}
+
+.confirmationMessage button {
+  padding: 50px;
+  border-radius: 25px;
+  width: 50%;
+  font-size: 2rem;
+  background: rgba(0, 200, 0, 0.5);
+}
+
+.confirmationMessage button:hover {
+  background: rgba(0, 200, 0, 1);
+}

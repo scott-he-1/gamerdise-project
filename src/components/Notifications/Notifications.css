@@ -1,0 +1,13 @@
+.notificationItem {
+  display: flex;
+  place-items: center;
+  grid-gap: 10px;
+}
+
+.notificationItem svg {
+  cursor: pointer;
+}
+
+.notificationMessage {
+  font-size: 1rem;
+}
