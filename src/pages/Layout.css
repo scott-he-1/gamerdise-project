@@ -32,6 +32,7 @@
 }
 
 .navOption {
+  position: relative;
   padding: 10px;
 }
 
@@ -67,3 +68,16 @@
   grid-gap: 5px;
 }
 
+.notificationCounter {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  right: 0px;
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  background: blue;
+}

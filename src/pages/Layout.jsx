@@ -90,6 +90,11 @@ export const Layout = () => {
       linkTo: "/",
       disabledLink: true,
       requiresLogin: true,
+      accessoryElement: currentUserNotifications.length ? (
+        <div className="notificationCounter">
+          {currentUserNotifications.length}
+        </div>
+      ) : null,
       showHover: () => setNotificationBoard(true),
       removeHover: () => setNotificationBoard(false),
       hoverElement: notificationBoard && (
@@ -166,6 +171,7 @@ export const Layout = () => {
                       </Link>
                     </li>
                     {option.hoverElement && option.hoverElement}
+                    {option.accessoryElement && option.accessoryElement}
                   </div>
                 );
               }
