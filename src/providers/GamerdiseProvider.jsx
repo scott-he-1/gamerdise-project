@@ -87,8 +87,8 @@ export const GamerdiseProvider = ({ children }) => {
     fetchRemoveNotification(e.target.id).then(() => reFetchUserNotifications());
   };
 
-  const purchaseItem = (id, nameOfItem) => {
-    removeItemFromMarket(id)
+  const purchaseItem = async (id, nameOfItem) => {
+    await removeItemFromMarket(id)
       .then(async () => {
         const IDsOfUsersToMessage = userCartItems
           .filter((item) => item.marketplaceID === Number(id))

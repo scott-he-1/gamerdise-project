@@ -35,7 +35,7 @@ export const Layout = () => {
   };
 
   const currentCartItems = userCartItems.filter(
-    (cartItem) => cartItem.inCartForUser === currentAccountID
+    (cartItem) => Number(cartItem.inCartForUser) === Number(currentAccountID)
   );
 
   const currentUserNotifications = userNotifications.filter(
@@ -65,7 +65,7 @@ export const Layout = () => {
           {currentCartItems.length > 0 ? (
             currentCartItems.map((cartItem) => {
               const itemToMap = marketItems.find(
-                (marketItem) => marketItem.id === cartItem.marketplaceID
+                (marketItem) => Number(marketItem.id) === Number(cartItem.marketplaceID)
               );
               return (
                 <MiniCartItem
